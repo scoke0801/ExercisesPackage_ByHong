@@ -1,5 +1,5 @@
 ### ExercisesPackage_ByHong
-> 인프런 홍정모의 게임 만들기 연습 문제 패키지 저장소
+> 인프런 홍정모의 게임 만들기 연습 문제 패키지 공 저장소
 
 ### vckpg 설치 참고
 > https://velog.io/@copyrat90/getting-started-with-vcpkg
