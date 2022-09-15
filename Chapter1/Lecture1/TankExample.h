@@ -30,7 +30,7 @@ namespace jm
 	public:
 		vec2 center = vec2(0.0f, 0.0f);
 		vec2 velocity = vec2(0.0f, 0.0f);
-
+		
 		void draw()
 		{
 			beginTransformation();
@@ -76,7 +76,9 @@ namespace jm
 			// shoot a cannon ball
 			if (isKeyPressedAndReleased(GLFW_KEY_SPACE))
 			{
-				bullet = new MyBullet;
+				if (!bullet) {
+					bullet = new MyBullet;
+				}
 				bullet->center = tank.center;
 				bullet->center.x += 0.2f;
 				bullet->center.y += 0.1f;
